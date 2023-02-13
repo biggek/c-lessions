@@ -1,0 +1,21 @@
+﻿string aString;
+string bString;
+string cString;
+int b = 0;
+int a = 0;
+int c = 0;
+int max=a;
+Console.Write("Введите первое число");
+aString = Console.ReadLine();
+a = Convert.ToInt32(aString);
+Console.Write("Введите второе число");
+bString = Console.ReadLine();
+b = Convert.ToInt32(bString);
+Console.Write("Введите третье число");
+cString = Console.ReadLine();
+c = Convert.ToInt32(cString);
+
+if (a>max) max=a;
+if (b>max) max=b;
+if (c>max) max=c;
+Console.Write($"Максимальное число{max}");
